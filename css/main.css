@@ -1,0 +1,135 @@
+* {
+  
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+img, embed,
+object, video {
+	max-width: 100%;
+	}
+	
+hr {
+	width: 100%;
+	}
+
+h2 {
+    color: #747704;
+    text-align: center;
+}
+
+	
+.box {
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex; 
+    flex-wrap: wrap;
+    
+}
+
+.container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+
+      @media screen and (max-width: 449px) {
+        
+
+        
+    	.avatar {
+			margin-left: auto;
+    		margin-right: auto; 
+  
+        }
+        .title {
+        	margin-left: auto;
+    		margin-right: auto;
+        }
+        .main picture {
+        	
+        	width: 100%;
+        }
+        .portfolio {
+        	margin-left: auto;
+    		margin-right: auto; 
+        	
+        }
+        
+        .featured {
+        	margin-left: auto;
+    		margin-right: auto; 
+        	
+        }
+         
+      }
+      
+      @media (min-width: 450px) and (max-width: 749px) {
+        .avatar {
+        
+    		
+          width: 50%;
+        }
+        .title {
+        	
+
+        	width: 50%;
+        }
+        .main picture {
+        	
+        	width: 100%;
+        	
+        }
+        .portfolio {
+        	
+        	padding: 0.1em;
+        }
+        
+         .featured {
+        	width: 33.33%;
+        	
+        }
+      
+      }
+      
+            @media screen and (min-width: 750px) {
+        .avatar {
+        
+    		
+          width: 20%;
+        }
+        .title {
+        	position:absolute;
+    		right:0;
+    		top:0;
+
+        	width: 33.33%;
+        }
+        .main picture {
+        	
+        	width: 100%;
+        	
+        }
+        .portfolio {
+        	
+        	width: 33.3333%;
+        }
+           
+        .featured {
+        	
+        	width: 33.3333%;
+        	
+        }
+      }
+      
+          @media screen and (min-width: 750px) {
+      
+        .container {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        }
+        
+      }
